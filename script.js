@@ -7,6 +7,7 @@ function computerPlay() {
 }
 function playRound() {
     let pGuess = prompt('Rock, paper, or scissors? Write "stop" for exit.');
+    pGuess = pGuess.toLowerCase();
     let cGuess = computerPlay();
     let result;
     if (pGuess === cGuess) {
