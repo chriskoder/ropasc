@@ -5,6 +5,7 @@ const note = document.querySelector(".note");
 let pGuess, cGuess, pScore, cScore;
 let init = (function (){
     resultText.textContent = ' ';
+    note.textContent = ' ';
     pScore = 0;
     cScore = 0;
     updateScore();
