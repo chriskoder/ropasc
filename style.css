@@ -49,9 +49,14 @@ p {
     align-self: center;
 }
 .sym {
+    opacity: 0.5;
     background: transparent;
     border: none;
+    outline: none;
     cursor: pointer;
+}
+.sym:hover {
+    opacity: 1;
 }
 .result {
     font-size: 3em;
